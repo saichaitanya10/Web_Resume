@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kotla Sai Chaitanya - Resume</title>
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        /* Header Styling */
+        h1 {
+            font-size: 36px;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        .contact-info {
+            font-size: 16px;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #2980b9;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+
+        p, li {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #34495e;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 15px;
+        }
+
+        /* Flexbox for aligning duration, CGPA, percentage, source code */
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .duration, .education-detail, .source-link {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+
+        .source-link a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .source-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* Experience and Project Lists */
+        .nested-list {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        /* Skills Grid */
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .skills div {
+            padding: 10px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+        }
+
+        /* Achievements Section */
+        .achievements ul {
+            list-style-type: circle;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Kotla Sai Chaitanya</h1>
+            <p class="contact-info">
+                <a href="mailto:saichaitanyakotla@gmail.com">saichaitanyakotla@gmail.com</a> |
+                <a href="https://www.linkedin.com/in/ksc1/" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/saichaitanya10/" target="_blank">Github</a> |
+                <a href="https://ksaichaitanya.vercel.app/" target="_blank">Portfolio</a>
+            </p>
+        </header>
+
+        <!-- Summary Section -->
+        <div class="section">
+            <h2>Summary</h2>
+            <p>I am a technology enthusiast seeking to develop my skills in a dynamic and learning-rich environment. My goal is to contribute to innovative projects that make a significant impact in the tech industry.</p>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <div class="item-header">
+                        <strong>Lovely Professional University, Phagwara</strong>
+                        <span class="education-detail">2022 - 2025 | CGPA: 6.65/10</span>
+                    </div>
+                    B.Tech in Computer Science & Engineering
+                </li>
+                <li>
+                    <div class="item-header">
+                        <strong>Anurag College of Engineering, Hyderabad</strong>
+                        <span class="education-detail">2019 - 2022 | Percentage: 65%</span>
+                    </div>
+                    Diploma in Mechanical Engineering
+                </li>
+                <li>
+                    <div class="item-header">
+                        <strong>St. Mary’s Bethany Convent Vidhyalaya, Hyderabad</strong>
+                        <span class="education-detail">2018 - 2019 | CGPA: 8.5</span>
+                    </div>
+                    Higher Secondary
+                </li>
+            </ul>
+        </div>
+
+        <!-- Work Experience Section -->
+        <div class="section">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <div class="item-header">
+                        <strong>VSN Laboratories</strong>
+                        <span class="duration">Dec 2023 – Jan 2024</span>
+                    </div>
+                    Fullstack Development Intern, Hybrid
+                    <ul class="nested-list">
+                        <li>Used MERN stack: React.js for UI, Node.js/Express.js for backend, MongoDB for storage.</li>
+                        <li>Engineered a website, CMS tool, and supply chain management system.</li>
+                        <li>Architected a highly scalable system, delivering it within a two-month timeframe.</li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="item-header">
+                        <strong>Sri Vidhya Enterprises, Hyderabad</strong>
+                        <span class="duration">June – August 2024</span>
+                    </div>
+                    Fullstack Development Intern, Hybrid
+                    <ul class="nested-list">
+                        <li>Domain: ERP system.</li>
+                        <li>Technologies: React.js, Tailwind CSS, Firebase, Firebase Authentication.</li>
+                        <li>Contributions: Optimized business processes with real-time data, integrated Firestore for secure data storage.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <div class="item-header">
+                        <strong>D-VALIDATE Smart India Hackathon</strong>
+                        <span class="source-link"><a href="https://github.com/Shiva-Tadigadapa/Dvalidate-Smart-India-Hackathon" target="_blank">Source Code</a></span>
+                    </div>
+                    <ul class="nested-list">
+                        <li>Blockchain-based certificate generation and validation system.</li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="item-header">
+                        <strong>LSMEDU (University Learning Management Application)</strong>
+                        <span class="source-link"><a href="https://github.com/university-course-website" target="_blank">Source Code</a></span>
+                    </div>
+                    <ul class="nested-list">
+                        <li>Comprehensive LMS developed using the MERN stack.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Technical Skills Section -->
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <div><strong>Languages:</strong> Python, Java, JavaScript, C++</div>
+                <div><strong>Backend:</strong> Node, Express, API</div>
+                <div><strong>Frontend:</strong> React.js, Responsive Web Design, UI/UX</div>
+                <div><strong>Cloud & Databases:</strong> AWS, SQL, MongoDB, Firebase</div>
+                <div><strong>Developer Tools:</strong> VS Code, GitHub</div>
+            </div>
+        </div>
+
+        <!-- Achievements Section -->
+        <div class="section achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Participant in Nation’s Smart India Hackathon - Dec 2023</li>
+                <li>Submitted Research Project on University’s DSW Website - Jan 2023</li>
+                <li>2nd place at I-Nureon’s Techathon at LPU - Dec 2022</li>
+                <li>NCC 1st Year Training Completed (2018-19)</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Kotla Sai Chaitanya. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
